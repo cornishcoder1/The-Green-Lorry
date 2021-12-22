@@ -38,7 +38,7 @@ function calculatePrice () {
         if (typeItem === "bed", "sofa") {
                 extraCharge = 10
             } else {
-            extraCharge = 0
+                extraCharge = 0
         }   
     
         itemPrice += extraCharge;
@@ -48,13 +48,20 @@ function calculatePrice () {
 
 //Calculates surcharge
 function calculateSurcharge (itemPrice, bristolDelivery) {
-    let surCharge = 5;
-        if (bristolDelivery === "fishponds", "StGeorge") {
+console.log(bristolDelivery);
+let surCharge = 0;
+        if (bristolDelivery === "stGeorge") {
+            surCharge = 5;
+            console.log('test0')
+            } else if (bristolDelivery === "fishponds") {
+            surCharge = 5;
+            console.log('test5') 
             } else {
-            surCharge = 0;
-        }
+            }
+        
     
     return surCharge;
+    
 }
 
 
