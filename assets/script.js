@@ -30,3 +30,14 @@ function generateQuote() {
     document.getElementById("displayPrice").innerHTML = theOutput;
 }
 
+//Calculates Item Price
+function calculatePrice () {
+    let itemPrice = 50;
+    let extraCharge = 0;
+    if (typeItem === "bed", "sofa") {
+        extraCharge = 10
+    }
+    itemPrice += extraCharge;
+    return itemPrice;
+}
+
