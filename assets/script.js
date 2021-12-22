@@ -22,7 +22,7 @@ function generateQuote() {
     if (surCharge === 0) {
         theOutput += "<p>No distance surcharge</p>";
         } else {
-            theOutput += "<p>Your surcharge is £ " + surCharge;
+            theOutput += "<p>Your distance surcharge is £ " + surCharge;
         }
 
         theOutput += "<p>Your quote total is: £" + (itemPrice + surCharge);
@@ -54,7 +54,7 @@ function calculateSurcharge (itemPrice, bristolDelivery) {
         if (bristolDelivery === "stGeorge") {
             surCharge = 5;
             } else if (bristolDelivery === "fishponds") {
-            surCharge = 5;
+            surCharge = 7;
             } else {
         }
         
