@@ -12,10 +12,21 @@ function generateQuote() {
     //Get item price
     let itemPrice = calculatePrice(typeItem, collectingFrom);
 
-    //Get delivery price 
-    let deliveryPrice = calculateDelivery(itemPrice,bristolDelivery);
+    //Get delivery price (surcharge for longer distances) 
+    let surCharge = calculateDelivery(itemPrice,bristolDelivery);
 
     //Create output 
     var theOutput = "<p>Thank you for your quote request</p>";
+
+    //Output surcharge for certain delivery locations
+    if (surCharge === 0) {
+        theOutput += "<p>No distance surcharge</p>";
+    } else {
+        theOutput += "<p>Your item price is £ " + surCharge;
+    }
+    theOutput += "<p>Your quote total is: £" + (itemPrice + surCharge);
+
+    //Display the output 
+    document.getElementById("displayPrice").innerHTML = theOutput;
 }
 
