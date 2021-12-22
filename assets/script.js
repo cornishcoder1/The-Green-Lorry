@@ -10,10 +10,10 @@ function generateQuote() {
     let bristolDelivery = document.getElementById("bristolDelivery").value;
 
     //Get item price
-    let itemPrice = calculatePrice(typeItem, collectingFrom);
+    let itemPrice = calculatePrice(typeItem);
 
     //Get delivery price (surcharge for longer distances) 
-    let surCharge = calculateDelivery(itemPrice,bristolDelivery);
+    let surCharge = calculateSurcharge(itemPrice,bristolDelivery);
 
     //Create output 
     var theOutput = "<p>Thank you for your quote request</p>";
@@ -22,8 +22,9 @@ function generateQuote() {
     if (surCharge === 0) {
         theOutput += "<p>No distance surcharge</p>";
     } else {
-        theOutput += "<p>Your item price is £ " + surCharge;
+        theOutput += "<p>Your surcharge is £ " + surCharge;
     }
+
     theOutput += "<p>Your quote total is: £" + (itemPrice + surCharge);
 
     //Display the output 
@@ -36,8 +37,21 @@ function calculatePrice () {
     let extraCharge = 0;
     if (typeItem === "bed", "sofa") {
         extraCharge = 10
+    } else {
+        extraCharge = 0
     }
     itemPrice += extraCharge;
     return itemPrice;
 }
+
+//Calculates surcharge
+function calculateSurcharge (itemPrice, bristolDelivery) {
+    let surCharge = 5;
+    if (bristolDelivery === "fishponds", "StGeorge") {
+    } else {
+        surCharge = 0;
+    }
+    return surCharge;
+}
+
 
