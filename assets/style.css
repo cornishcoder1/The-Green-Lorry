@@ -1,2 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+
 body {
     background-color: rgb(245, 227, 205);
+    font-family: 'Quicksand', sans-serif;
+}    
+
+#heading {
+    text-align: center;
+    color: black;
+    font-size: 1.5rem;
+    padding-bottom: 8rem;
+}
+
+h1 {
+    margin-bottom: 0;
+}
+
+h2 {
+    margin-top: 0;
+}
