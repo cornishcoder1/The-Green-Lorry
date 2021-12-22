@@ -9,7 +9,7 @@ body {
     text-align: center;
     color: black;
     font-size: 1.5rem;
-    padding-bottom: 8rem;
+    padding-bottom: 5rem;
 }
 
 h1 {
@@ -18,4 +18,8 @@ h1 {
 
 h2 {
     margin-top: 0;
+}
+
+#quoteForm {
+    background-color: rgb(42, 187, 42);
 }
