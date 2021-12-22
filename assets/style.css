@@ -23,3 +23,7 @@ h2 {
 #quoteForm {
     background-color: rgb(42, 187, 42);
 }
+
+#displayPrice {
+    background-color: pink;
+}
