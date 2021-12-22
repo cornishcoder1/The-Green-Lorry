@@ -21,15 +21,15 @@ function generateQuote() {
     //Output surcharge for certain delivery locations
     if (surCharge === 0) {
         theOutput += "<p>No distance surcharge</p>";
-    } else {
-        theOutput += "<p>Your surcharge is £ " + surCharge;
+        } else {
+            theOutput += "<p>Your surcharge is £ " + surCharge;
+        }
+
+        theOutput += "<p>Your quote total is: £" + (itemPrice + surCharge);
+
+        //Display the output 
+        document.getElementById("displayPrice").innerHTML = theOutput;
     }
-
-    theOutput += "<p>Your quote total is: £" + (itemPrice + surCharge);
-
-    //Display the output 
-    document.getElementById("displayPrice").innerHTML = theOutput;
-}
 
 //Calculates Item Price
 function calculatePrice (typeItem) {
@@ -50,17 +50,16 @@ function calculatePrice (typeItem) {
 
 //Calculates surcharge
 function calculateSurcharge (itemPrice, bristolDelivery) {
-console.log(bristolDelivery);
-let surCharge = 0;
+    let surCharge = 0;
         if (bristolDelivery === "stGeorge") {
             surCharge = 5;
             } else if (bristolDelivery === "fishponds") {
             surCharge = 5;
             } else {
-            }
+        }
         
     
-    return surCharge;
+        return surCharge;
     
 }
 
