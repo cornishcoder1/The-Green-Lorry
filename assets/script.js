@@ -32,13 +32,15 @@ function generateQuote() {
 }
 
 //Calculates Item Price
-function calculatePrice () {
+function calculatePrice (typeItem) {
     let itemPrice = 50;
     let extraCharge = 0;
-        if (typeItem === "bed", "sofa") {
-                extraCharge = 10
+        if (typeItem === "bed") {
+                extraCharge = 10;
+            } else if (typeItem === "wardrobe") {
+                extraCharge = 10;    
             } else {
-                extraCharge = 0
+            
         }   
     
         itemPrice += extraCharge;
@@ -52,10 +54,8 @@ console.log(bristolDelivery);
 let surCharge = 0;
         if (bristolDelivery === "stGeorge") {
             surCharge = 5;
-            console.log('test0')
             } else if (bristolDelivery === "fishponds") {
             surCharge = 5;
-            console.log('test5') 
             } else {
             }
         
