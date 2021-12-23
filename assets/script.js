@@ -27,9 +27,18 @@ function generateQuote() {
 
         theOutput += "<p>Your quote total is: £" + (itemPrice + surCharge);
 
+    //Change output if 'other' is selected as type of item 
+    if (typeItem === "other") {
+        theOutput += "<p>Call us for a bespoke quote";
+    }
+
         //Display the output 
         document.getElementById("displayPrice").innerHTML = theOutput;
     }
+
+ 
+       
+    
 
 //Calculates Item Price
 function calculatePrice (typeItem) {
@@ -38,7 +47,7 @@ function calculatePrice (typeItem) {
         if (typeItem === "bed") {
                 extraCharge = 10;
             } else if (typeItem === "wardrobe") {
-                extraCharge = 10;    
+                extraCharge = 10;       
             } else {
             
         }   
