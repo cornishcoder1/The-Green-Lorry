@@ -13,13 +13,13 @@ function generateQuote() {
     let itemPrice = calculatePrice(typeItem);
 
     //Get delivery price (surcharge for longer distances) 
-    let surCharge = calculateSurcharge(itemPrice,bristolDelivery);
+    let surCharge = calculateSurcharge(itemPrice, collectingFrom);
 
     //Create output 
     var theOutput = "<p>Thank you for your quote request</p>";
     var itemCharge = "<p>Your item collection charge is £" + (itemPrice);
 
-    //Output surcharge for certain delivery locations
+    //Output surcharge for collections from Bath
     if (surCharge === 0) {
         theOutput += "<p>No distance surcharge</p>";
         } else {
@@ -57,11 +57,11 @@ function calculatePrice (typeItem) {
 }
 
 //Calculates surcharge
-function calculateSurcharge (itemPrice, bristolDelivery) {
+function calculateSurcharge (itemPrice, collectingFrom) {
     let surCharge = 0;
-        if (bristolDelivery === "stGeorge") {
-            surCharge = 5;
-            } else if (bristolDelivery === "fishponds") {
+        if (collectingFrom === "bristol") {
+            surCharge = 0;
+            } else if (collectingFrom === "bath") {
             surCharge = 7;
             } else {
         }
@@ -69,15 +69,5 @@ function calculateSurcharge (itemPrice, bristolDelivery) {
     
         return surCharge;
 }
-
-//Calculates collection surcharge if collecting from Bath
-//function calculateCollection (itemPrice, bristolDelivery, collectingFrom) {
-  //  let collection = 0;
-    //if (collectingFrom === "bath") {
-      //  collection = 5
-    //}
-
-    //return collection;
-//}
 
 
