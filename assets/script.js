@@ -41,7 +41,7 @@ function generateQuote() {
 
 //Calculates Item Price
 function calculatePrice (typeItem) {
-    let itemPrice = 50;
+    let itemPrice = 30;
     let extraCharge = 0;
         if (typeItem === "bed") {
                 extraCharge = 10;
