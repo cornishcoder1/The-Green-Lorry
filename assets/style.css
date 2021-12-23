@@ -23,6 +23,20 @@ h2 {
 
 #quoteForm {
     background-color: rgb(42, 187, 42);
+    width: 75vw;
+    padding: 30px 0 30px 0;
+    margin: auto;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    box-shadow: 0px 1px 4px 2px rgb(42, 187, 42);
+}
+
+#quoteForm > label {
+    margin-inline: 2em;
+}
+
+#quoteForm > button {
+   margin-inline: 2em;
 }
 
 #displayPrice {
