@@ -9,7 +9,6 @@ body {
     text-align: center;
     color: black;
     font-size: 1.5rem;
-    padding-bottom: 2.5rem;
 }
 
 h1 {
@@ -19,6 +18,11 @@ h1 {
 h2 {
     margin-top: 0;
     margin-bottom: 0;
+}
+
+#intro {
+    text-align: center;
+    padding-bottom: 2.5rem;
 }
 
 #quoteForm {
@@ -49,4 +53,8 @@ h2 {
     border: 1px solid transparent;
     border-radius: 4px;
     box-shadow: 0px 1px 4px 2px pink;
+}
+
+p {
+    margin-inline: 2em;
 }
