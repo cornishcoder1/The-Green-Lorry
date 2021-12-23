@@ -113,8 +113,8 @@ CSS validator result link:
 # Bugs
 
 ## Fixed
-- 
-- 
+- if statements not accepting values separated by commas or 'or' operand - had to seperate out values in the if statements (help - John McPherson_5p)
+- css not being pushed to deployed page, this was because file paths declared in HTML were absolute, so changed them to relative (help - EvanTyretMetor)
 - 
 - 
 - 
