@@ -17,15 +17,16 @@ function generateQuote() {
 
     //Create output 
     var theOutput = "<p>Thank you for your quote request</p>";
+    var itemCharge = "<p>Your item collection charge is £" + (itemPrice);
 
     //Output surcharge for certain delivery locations
     if (surCharge === 0) {
         theOutput += "<p>No distance surcharge</p>";
         } else {
-            theOutput += "<p>Your distance surcharge is £ " + surCharge;
+            theOutput += "<p>Your distance surcharge is £" + surCharge;
         }
 
-        theOutput += "<p>Your quote total is: £" + (itemPrice + surCharge);
+        theOutput += itemCharge + "<p>Your quote total is: £" + (itemPrice + surCharge);
 
     //Change output if 'other' is selected as type of item 
     if (typeItem === "other") {
@@ -35,10 +36,7 @@ function generateQuote() {
 
         //Display the output 
         document.getElementById("displayPrice").innerHTML = theOutput;
-    }
-
- 
-       
+    }     
     
 
 //Calculates Item Price
@@ -70,7 +68,16 @@ function calculateSurcharge (itemPrice, bristolDelivery) {
         
     
         return surCharge;
-    
 }
+
+//Calculates collection surcharge if collecting from Bath
+//function calculateCollection (itemPrice, bristolDelivery, collectingFrom) {
+  //  let collection = 0;
+    //if (collectingFrom === "bath") {
+      //  collection = 5
+    //}
+
+    //return collection;
+//}
 
 
