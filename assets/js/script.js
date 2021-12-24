@@ -89,4 +89,14 @@ function calculateSurcharge (itemPrice, collectingFrom) {
   vanPosition += 2;
   van.style.left = vanPosition + 'px';
   }
-}  
+
+  //Reset van when options are changed 
+
+  function vanBack() {
+    let select = document.getElementsByTagName("select");
+    select.addEventListener("click" , vanBack);
+    if (vanPosition < 260) 
+        clearInterval(animation);
+        console.log("Whew! That was close!");
+    } 
+}
