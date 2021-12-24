@@ -54,7 +54,8 @@ function calculatePrice (typeItem) {
         itemPrice += extraCharge;
     
         return itemPrice;
-}
+    }
+
 
 //Calculates surcharge
 function calculateSurcharge (itemPrice, collectingFrom) {
@@ -65,9 +66,34 @@ function calculateSurcharge (itemPrice, collectingFrom) {
             surCharge = 7;
             } else {
         }
-        
     
         return surCharge;
 }
 
 
+  //Animate van in footer
+
+  var vanSpeed = 250;
+  var vanPosition = 0;
+  var animation;
+
+  var van = document.getElementById("littleVan");
+  document.getElementById("generateQuote").addEventListener("click", vanMove);
+  //van.addEventListener("mouseover", vanMove);
+
+  function vanMove() {
+      if (vanSpeed > 10) {
+          vanSpeed -= 10;
+  }
+      console.log("van speed: " + vanSpeed);
+
+      clearInterval(animation);
+      animation = setInterval(frame, vanSpeed);
+
+
+  function frame() {
+  vanPosition += 2;
+  van.style.left = vanPosition + 'px';
+  console.log(vanPosition);
+  }
+}  

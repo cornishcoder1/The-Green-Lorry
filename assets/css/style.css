@@ -59,6 +59,10 @@ p {
     margin-inline: 2em;
 }
 
+#littleVan {
+    position: relative;
+}
+
 footer {
     display: flex;
     justify-content: space-between;
