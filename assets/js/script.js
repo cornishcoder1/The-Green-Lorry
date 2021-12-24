@@ -71,22 +71,16 @@ function calculateSurcharge (itemPrice, collectingFrom) {
 }
 
 
-  //Animate van in footer
+  //Animate van in footer when quote is generated
 
-  var vanSpeed = 250;
+  var vanSpeed = 50;
   var vanPosition = 0;
   var animation;
 
   var van = document.getElementById("littleVan");
   document.getElementById("generateQuote").addEventListener("click", vanMove);
-  //van.addEventListener("mouseover", vanMove);
 
   function vanMove() {
-      if (vanSpeed > 10) {
-          vanSpeed -= 10;
-  }
-      console.log("van speed: " + vanSpeed);
-
       clearInterval(animation);
       animation = setInterval(frame, vanSpeed);
 
@@ -94,6 +88,5 @@ function calculateSurcharge (itemPrice, collectingFrom) {
   function frame() {
   vanPosition += 2;
   van.style.left = vanPosition + 'px';
-  console.log(vanPosition);
   }
 }  
