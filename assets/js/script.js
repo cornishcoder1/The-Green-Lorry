@@ -70,7 +70,7 @@ function calculateSurcharge (itemPrice, collectingFrom) {
         return surCharge;
 }
 
-  // Change color of quote result div
+  // Display and change color of quote result div when quote is generated
   document.getElementById("generateQuote").addEventListener("click", changeBackground);
   let priceColor = document.getElementById("displayPrice");
 
@@ -79,6 +79,7 @@ function calculateSurcharge (itemPrice, collectingFrom) {
       priceColor.style.border = "1px solid transparent;";
       priceColor.style.borderRadius = "4px";
       priceColor.style.boxShadow = "0px 1px 4px 2px rgb(42, 187, 42)";
+      priceColor.style.display = "block";
   }
 
   //Animate van in footer when quote is generated
