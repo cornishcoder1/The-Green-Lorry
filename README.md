@@ -1,7 +1,7 @@
 
 # Bristol Green Furniture Transport
 
-<p>Introduction to page here</p>
+<p>This quote generator is designed to give prices for a fictional furniture transport service based in Bristol. It consists of a simple form with select and option elements, allowing users to generate an instant quote for furniture collection and delivery. The quote output depends on what item is being collected/delivered, and where it is being collecting from. Javascript functionality changes the output depending on which conditions are selected by the user in the form. Clicking the 'Generate Quote' button triggers the output, as well as animating the van icon in the footer section.</p>
 
 <a href="https://cornishcoder1.github.io/pp2_Bristol_Furniture/" target="_blank" rel="noopener" aria-label="Link to open deployed site">Link to deployed site</a>
 
@@ -11,16 +11,19 @@
 
 ## UX
 
-My website is aimed at cat owners who are looking for a cat sitting service for the first time, or to those looking for an alternative to placing their pet in a cattery while they are away. I have attempted to keep the website quite clean and clutter free, but also wanted to ensure that all essential information is present. The color scheme consists of #FEFEDF applied to header, footer, alternate sections on the homepage and text boxes, and #4E4351 as a main background color. The text is a darker variation of the purple background color. I generated a number of color palettes by using <a href="https://mycolor.space/?hex=%23845EC2&sub=1>">ColorSpace</a>. The main color I generated the palettes from was #845EC2. I wanted the design of the site to reflect a fun and playful feeling which comes with having a pet such as a cat, whilst also using colors and fonts which would give a modern and stylish finish.
+This page is aimed at users in the Bristol area, who are looking for a service to pick up and deliver second hand furniture, which may have bought through online platforms such as Gumtree or Facebook marketplace. I have attempted to incorporate a relevant color scheme, using green and brown which are in keeping with the furniture theme. The page itself is simple and functional, with it's purpose and function being presented clearly from the outset. The user can generate more than one quote by changing the form options and clicking the 'Generate Quote' button to update the output.  
+
+
+ The color scheme consists of #FEFEDF applied to header, footer, alternate sections on the homepage and text boxes, and #4E4351 as a main background color. The text is a darker variation of the purple background color. I generated a number of color palettes by using <a href="https://mycolor.space/?hex=%23845EC2&sub=1>">ColorSpace</a>. The main color I generated the palettes from was #845EC2. I wanted the design of the site to reflect a fun and playful feeling which comes with having a pet such as a cat, whilst also using colors and fonts which would give a modern and stylish finish.
 
 Wireframes for desktop site:
 
 
 <div align="center">
 
-Home Page
 
-![Desktop wireframe for Homepage](./assets/wireframes/home_page.png)
+
+![Desktop wireframe for Quote Generator](./assets/wireframes/home_page.png)
 
 </div>
 
