@@ -121,7 +121,7 @@ CSS validator result link:
 
 ## Unfixed
 
-- 
+- Tried to reset van with reset button , couldn't get it to work
 -  
 - 
 

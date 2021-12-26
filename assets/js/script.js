@@ -81,9 +81,6 @@ function calculateSurcharge (itemPrice, collectingFrom) {
       priceColor.style.boxShadow = "0px 1px 4px 2px rgb(42, 187, 42)";
   }
 
-
-
-
   //Animate van in footer when quote is generated
 
   var vanSpeed = 50;
