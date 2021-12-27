@@ -33,7 +33,7 @@ Wireframe for desktop site:
 ## User Stories
 
 As a new user I am:
-- 
+- Looking for a furniture or large item collection service.
 - 
 - 
 
@@ -47,11 +47,11 @@ As an existing user I am:
 
 <div align="center">
 
-**Navigation Bar and Footer**
+**Heading and Introduction**
 
-The navigation bar and footer are featured on every page of the site. The former allows users to easily navigate to whichever part of the site they wish. A solid line appears under each link when the user hovers over with the mouse. The footer allows users to navigate to the relevant would-be social media channels for the business. 
+The heading and introductory text clearly explain what the page is, and what service is being quoted for. 
 
-![Screenshot of navigation bar](./assets/screenshots/screenshot_nav_bar.png)
+![Screenshot of heading and introductory text](./assets/screenshots/screenshot_nav_bar.png)
 
 ![Screenshot of footer](./assets/screenshots/screenshot_footer.png)
 

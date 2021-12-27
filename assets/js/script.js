@@ -41,12 +41,26 @@ function generateQuote() {
 
 //Calculates Item Price
 function calculatePrice (typeItem) {
-    let itemPrice = 30;
+    let itemPrice = 20;
     let extraCharge = 0;
-        if (typeItem === "bed") {
-                extraCharge = 10;
-            } else if (typeItem === "wardrobe") {
-                extraCharge = 10;       
+        if (typeItem === "wardrobe") {
+                extraCharge = 20;
+            } else if (typeItem === "chestofDrawers") {
+                extraCharge = 10;  
+            } else if (typeItem === "largeBed") {
+                extraCharge = 20;   
+            } else if (typeItem === "singleBed") {
+                extraCharge = 10;   
+            } else if (typeItem === "sofa") {
+                extraCharge = 10;    
+            } else if (typeItem === "sofaLarge") {
+                extraCharge = 20; 
+            } else if (typeItem === "armChair") {
+                extraCharge = 5;  
+            } else if (typeItem === "cupboard") {
+                extraCharge = 5; 
+            } else if (typeItem === "diningTable") {
+                extraCharge = 10; 
             } else {
             
         }   
