@@ -78,6 +78,10 @@ function calculateSurcharge (itemPrice, collectingFrom) {
             surCharge = 0;
             } else if (collectingFrom === "bath") {
             surCharge = 7;
+        } else if (collectingFrom === "southGlos") {
+            surCharge = 5;
+        } else if (collectingFrom === "northSomerset") {
+            surCharge = 5;
             } else {
         }
     
