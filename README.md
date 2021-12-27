@@ -11,10 +11,12 @@
 
 ## UX
 
-This page is aimed at users in the Bristol area, who are looking for a service to pick up and deliver second hand furniture, which may have bought through online platforms such as Gumtree or Facebook marketplace. I have attempted to incorporate a relevant color scheme, using green and brown which are in keeping with the furniture theme. The page itself is simple and functional, with it's purpose and function being presented clearly from the outset. The user can generate more than one quote by changing the form options and clicking the 'Generate Quote' button to update the output.  
+This page is aimed at users in the Bristol area, who are looking for a service to pick up and deliver second hand furniture, which they may have obtained through online platforms such as Gumtree or Facebook Marketplace. The service responds to the need of young professionals living in Bristol who may not have access to their own transport to be able to pick up larger items. 
+
+I have attempted to incorporate a relevant color scheme, using green and brown which are in keeping with the furniture theme. The page itself is simple and functional, with it's purpose and function being presented clearly from the outset. The user can generate more than one quote by changing the form options and clicking the 'Generate Quote' button to update the output.  
 
 
- The color scheme consists of #FEFEDF applied to header, footer, alternate sections on the homepage and text boxes, and #4E4351 as a main background color. The text is a darker variation of the purple background color. I generated a number of color palettes by using <a href="https://mycolor.space/?hex=%23845EC2&sub=1>">ColorSpace</a>. The main color I generated the palettes from was #845EC2. I wanted the design of the site to reflect a fun and playful feeling which comes with having a pet such as a cat, whilst also using colors and fonts which would give a modern and stylish finish.
+The color scheme consists of #F6EDD9 applied to the background, which is a pale beige color to give contrast with the black heading and introductory text. I have applied #2ABB2A to the form and output divs as an attractive contrast to the lighter background color of the main page. I generated a color palette from #2ABB2A by using <a href="https://mycolor.space/?hex=%232ABB2A&sub=1">ColorSpace</a>, and this is how I found the background color as it goes well with the green. I wanted the design of the site to look simple and clean, with a furniture themed color palette, hence the use of green and brown shades. 
 
 Wireframes for desktop site:
 
