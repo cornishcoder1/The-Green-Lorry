@@ -17,13 +17,13 @@ function generateQuote() {
 
     //Create output 
     var theOutput = "<p>Thank you for your quote request</p>";
-    var itemCharge = "<p>Your item collection charge is £" + (itemPrice);
+    var itemCharge = "<p>Your item collection charge is: £" + (itemPrice);
 
     //Output surcharge for collections from Bath
     if (surCharge === 0) {
         theOutput += "<p>No distance surcharge</p>";
         } else {
-            theOutput += "<p>Your distance surcharge is £" + surCharge;
+            theOutput += "<p>Your distance surcharge is: £" + surCharge;
         }
 
         theOutput += itemCharge + "<p>Your quote total is: £" + (itemPrice + surCharge);
