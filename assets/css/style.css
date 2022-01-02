@@ -53,6 +53,12 @@ h2 {
    margin-inline: 2em;
 }
 
+select {
+    background-color: transparent;
+    border-color: black;
+    
+}
+
 #displayPrice {
     background-color:  rgb(245, 227, 205);
     width: 75vw;
