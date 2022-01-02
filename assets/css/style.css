@@ -59,6 +59,28 @@ select {
     
 }
 
+.generateButton {
+    margin-inline: 2em;
+    margin-top: 0.5em;
+    border-radius: 2px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    
+    text-align: center;
+    font-size: 15px;
+    letter-spacing: 2px;
+    border: none;
+    
+    background-color: #F6EDD9;
+    color: #FF0072;
+    display: block;
+}
+
+.generateButton:hover {
+    background-color: #FF0072;
+    color:#F6EDD9;
+}
+
 #displayPrice {
     background-color:  rgb(245, 227, 205);
     width: 75vw;
