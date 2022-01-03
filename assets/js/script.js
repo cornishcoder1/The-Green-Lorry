@@ -119,6 +119,7 @@ function vanMove() {
     }  
 }
 
+// Stops Van when mouse hovers over img element
 var vanImg = document.getElementById ("vanImg");
 vanImg.addEventListener("mouseover", stopVan);
 
