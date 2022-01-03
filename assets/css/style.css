@@ -112,3 +112,26 @@ footer {
     margin-left: auto;
     margin-right: auto;
 }
+
+
+/* Media Queries*/
+
+/* For small screen sizes 512px and down*/
+
+@media (max-width: 512px) {
+    #quoteForm {
+            flex-direction: column;
+            
+    }
+
+        
+    #quoteForm > * {
+            flex-basis: 100%;
+    }
+
+    select, option {
+        margin-inline: 2em;
+    }
+
+     
+}      
