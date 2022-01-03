@@ -125,5 +125,6 @@ vanImg.addEventListener("mouseover", stopVan);
 
 function stopVan (event) {
       clearInterval (animation);
-  } 
+  }
   
+
