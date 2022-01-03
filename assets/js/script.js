@@ -112,19 +112,25 @@ function calculateSurcharge (itemPrice, collectingFrom) {
 function vanMove() {
     clearInterval(animation);
     animation = setInterval(frame, vanSpeed);
-   
+
     function frame() {
     vanPosition += 2;
     van.style.left = vanPosition + 'px';
+   
     }  
 }
 
 // Stops Van when mouse hovers over img element
-var vanImg = document.getElementById ("vanImg");
-vanImg.addEventListener("mouseover", stopVan);
+//var vanImg = document.getElementById ("vanImg");
+//vanImg.addEventListener("mouseover", stopVan);
 
-function stopVan (event) {
-      clearInterval (animation);
-  }
+//function stopVan (event) {
+  //    clearInterval (animation);
+  //}
+
+  setTimeout(function () {
+    document.getElementById('littleVan');
+}, 2000);
+
   
 
