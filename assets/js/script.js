@@ -109,15 +109,20 @@ function calculateSurcharge (itemPrice, collectingFrom) {
   var van = document.getElementById("littleVan");
   document.getElementById("generateQuote").addEventListener("click", vanMove);
 
-  function vanMove() {
-      clearInterval(animation);
-      animation = setInterval(frame, vanSpeed);
-
-
-  function frame() {
-  vanPosition += 2;
-  van.style.left = vanPosition + 'px';
-  }
-
- 
+function vanMove() {
+    clearInterval(animation);
+    animation = setInterval(frame, vanSpeed);
+   
+    function frame() {
+    vanPosition += 2;
+    van.style.left = vanPosition + 'px';
+    }  
 }
+
+var vanImg = document.getElementById ("vanImg");
+vanImg.addEventListener("mouseover", stopVan);
+
+function stopVan (event) {
+      clearInterval (animation);
+  } 
+  
