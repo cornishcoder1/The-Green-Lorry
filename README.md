@@ -5,18 +5,18 @@
 
 <a href="https://cornishcoder1.github.io/The-Green-Lorry/" target="_blank" rel="noopener" aria-label="Link to open deployed site">Link to deployed site</a>
 
-<img src="assets/images/am_I_responsive.png">
+<img src="assets/images/am_I_responsive_screenshot.png">
 
 ------
 
 ## UX
 
-This page is aimed at users in the Bristol area, who are looking for a service to pick up and deliver second hand furniture, which they may have obtained through online platforms such as Gumtree or Facebook Marketplace. The service responds to the need of young professionals living in Bristol who may not have access to their own transport to be able to pick up larger items. 
+This page is aimed at users in the Bristol area, who are looking for a service to pick up and deliver second hand furniture. A typical item may have been obtained through online platforms such as Gumtree or Facebook Marketplace. The service responds to the need of young professionals living in Bristol who may not have access to their own transport to be able to pick up larger items. 
 
 I have attempted to incorporate a relevant color scheme, using green and brown which are in keeping with the furniture theme. The page itself is simple and functional, with it's intended purpose being presented clearly from the outset. The user can generate more than one quote by changing the form options and clicking the 'Generate Quote' button to update the output.  
 
 
-The color scheme consists of #F6EDD9 applied to the background, which is a pale beige color to give adequate contrast with the black heading and introductory text. I have applied #2ABB2A to the form and output divs as a bold but in keeping contrast to the lighter background color of the main page. I generated a color palette from #2ABB2A by using <a href="https://mycolor.space/?hex=%232ABB2A&sub=1">ColorSpace</a>, and this is how I found the background color. I wanted the design of the site to look simple and clean, with a modern minimal aesthetic. The animation of the van image in the footer adds a nice visual feature after a quote is generated, and serves to showcase another example of JS functionality.  
+The color scheme consists of #F6EDD9 applied to the background, which is a pale beige color to give adequate contrast with the black heading and introductory text. I have applied #2ABB2A to the form and output divs as a bold but in keeping contrast to the lighter background color of the main page. I choose the background color from a <a href="https://mycolor.space/?hex=%232ABB2A&sub=1">ColorSpace</a> palette generated with #2ABB2A as the primary color. I wanted the design of the site to look simple and clean, with a modern minimal aesthetic. The animation of the van image in the footer adds a nice visual feature after a quote is generated, and serves to showcase another example of JS functionality.  
 
 Wireframe for desktop site:
 
@@ -25,21 +25,27 @@ Wireframe for desktop site:
 
 
 
-![Desktop wireframe for Quote Generator](./assets/wireframes/desktop_wireframe.png)
+![Desktop wireframe for Quote Generator](./assets/wireframes/wireframe_desktop.png)
+
+</div>
+
+Wireframe for mobile:
+
+<div align="center">
+
+
+
+![Mobile wireframe for Quote Generator](./assets/wireframes/wireframe_mobile.png)
 
 </div>
 
 
 ## User Stories
 
-As a new user I am:
-- Looking for a furniture or large item collection service.
-- 
-- 
-
-As an existing user I am: 
-- 
-- 
+As a user I am:
+- Looking for a furniture collection service, that is able to transport my item for me (collect and deliver).
+- Looking for a quote with a price breakdown, and total cost. 
+- Looking for an easy to use quote generator, which gives a clear and accurate price based on my item and collection location. 
 
 ------
 
