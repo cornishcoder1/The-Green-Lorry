@@ -51,7 +51,7 @@ As a user I am:
  
 ## UX
 
-I have attempted to incorporate a relevant color scheme, using green and brown which are in keeping with the furniture theme. The page itself is simple and functional, with it's intended purpose being presented clearly from the outset. The user can generate more than one quote by changing the form options and clicking the 'Generate Quote' button to update the output.  
+I have incorporated a relevant color scheme, using green and brown which are in keeping with the furniture theme. The page itself is simple and functional, with it's intended purpose being presented clearly from the outset. The user can generate more than one quote by changing the form options and clicking the 'Generate Quote' button to update the output.  
 
 The color scheme consists of #F6EDD9 applied to the background, which is a pale beige color to give adequate contrast with the black heading and introductory text. I have applied #2ABB2A to the form and output sections as a bold but in keeping contrast to the lighter background color of the main page. I chose the background color from a <a href="https://mycolor.space/?hex=%232ABB2A&sub=1">ColorSpace</a> palette generated with #2ABB2A as the primary color. I wanted the design of the site to look simple and clean, with a modern minimal aesthetic. The animation of the van image in the footer adds a nice visual feature after a quote is generated.  
 
