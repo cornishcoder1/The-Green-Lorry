@@ -35,6 +35,15 @@ function generateQuote() {
 
     //Display the output 
     document.getElementById("displayPrice").innerHTML = theOutput;
+
+    /**
+    * Adds a class to the van image to allow animation to occur
+    */
+    function addAnimation() {
+    document.getElementById("vanImg").classList.add("vanImgMoving");
+    }
+
+    addAnimation();
 }     
     
 
@@ -121,12 +130,12 @@ function vanMove() {
 
 // Stops Van when mouse hovers over img element
 
-var vanImg = document.getElementById ("vanImg");
-vanImg.addEventListener("mouseover", stopVan);
+//var vanImg = document.getElementById ("vanImg");
+//vanImg.addEventListener("mouseover", stopVan);
 
-function stopVan (event) {
-      clearInterval (animation);
-  }
+//function stopVan (event) {
+  //    clearInterval (animation);
+  //
 
 //  setTimeout(function () {
   //  document.getElementById('littleVan');
