@@ -118,7 +118,9 @@ This quote generator would work best as an element incorporated into a wider web
 
 <a href="https://developer.chrome.com/docs/devtools"> - Chrome Dev Tools</a>
 
-<a href="https://mycolor.space/?hex=%23845EC2&sub=1>"> - ColorSpace</a>
+<a href="https://mycolor.space/?hex=%232ABB2A&sub=1"> - ColorSpace</a>
+
+<a href="https://favicon.io/"> - Favicon.io</a>
 
 <a href="http://www.flaticon.com/"> - Flaticon</a>
 
@@ -133,22 +135,24 @@ This quote generator would work best as an element incorporated into a wider web
 
 ## HTML
 
-A single warning was detected across all pages, advising that sections did not contain any H1 elements. Errors that were detected are detailed in the 'Fixed Bugs' section.
+No errors or warnings were detected.
 
 HTML validator result links:
 
-<a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fcornishcoder1.github.io%2Fproject1-cat-sitting-services%2F"> index.html</a>
+<a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fcornishcoder1.github.io%2FThe-Green-Lorry%2F"> index.html</a>
 
 
 ## CSS
 
-No errors were detected.
+No errors or warnings were detected.
 
 CSS validator result link:
 
-<a href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fcornishcoder1.github.io%2Fproject1-cat-sitting-services%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en"> style.css </a>
+<a href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fcornishcoder1.github.io%2FThe-Green-Lorry%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en"> style.css </a>
 
 ## Javascript
+
+
 
 
 # Bugs
