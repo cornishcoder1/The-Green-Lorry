@@ -16,9 +16,26 @@
 2. [User Experience(UX)](#ux)
 
 3. [Wireframes](#wireframes)
-   
-   
 
+4. [Features](#features)
+
+5. [Technologies Used](#technologies-used)
+
+6. [Other Resources Used](#other-resources-used)
+
+7. [Validator Testing](#validator-testing)
+
+8. [Bugs](#bugs)
+
+9. [Accessibility Testing](#accessibility-testing)
+
+10. [Manual Testing](#manual-testing)
+
+11. [Deployment](#deployment)
+
+12. [Credits](#credits)
+   
+   
 ------
 
 ## User Stories
