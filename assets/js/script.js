@@ -46,7 +46,6 @@ function generateQuote() {
     addAnimation();
 }     
     
-
 /** 
 *Calculates Item Price
 */

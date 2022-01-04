@@ -168,17 +168,13 @@ CSS validator result link:
 # Bugs
 
 ## Fixed
-- if statements not accepting values separated by commas or 'or' operand - had to seperate out values in the if statements (help - John McPherson_5p)
-- css not being pushed to deployed page, this was because file paths declared in HTML were absolute, so changed them to relative (help - EvanTyretMetor)
-- 
-- 
-- 
+- I originally used an if/else statement within the calculatePrice function, however the statement would not accept values separated by commas, or with an 'or' operand. My orignal fix for this was to separate out values in the if/else statement, but I then changed this to a switch statement instead. 
+- I had an issue with CSS not being pushed to my deployed page, this was because I had declared absolute file paths in HTML. I changed them to relative filepaths, and this fixed the issue.
+- I originally animated the van in the footer with JavaScript, however when the 'Generate Quote' button was clicked and the van started to 'drive', it didn't stop and gradually increased the size of the horizonal scroll bar as it went. To fix this I created a CSS class with animation and keyframes, and a corresponding function in JS. The keyframe stops the van from continuing further from the right-hand side of the window. 
 
 ## Unfixed
 
-- Tried to reset van with reset button , couldn't get it to work
--  
-- 
+- If the 'Generate Quote' button is clicked multiple times without refreshing the DOM, the van in the footer remains in it's final position at the right-hand side of the window. With better knowledge I would have liked to have been able to reset the van to it's original position and re-run the animation each time the 'Generate Quote' button is clicked. 
 
 
 ------
@@ -252,9 +248,10 @@ I used the following websites for research:
 
 ## Acknowledgements 
 
-- Dave_Horrocks_5P for his help with explaining how flex elements work. 
-- Dom Quail_5P for his excellent README example.
-- Kevin Powell's YouTube video <a href="https://www.youtube.com/watch?v=bn-DQCifeQQ&t=8s"> 'Responsive Design Made Easy'</a> with thanks to John McPherson_5P for recommending this channel to me. 
+- John_McPherson_5P for helping me fix my original if/else statement bug. 
+- Dave_Horrocks_5P for his invaluable hours of assistance in helping me understand arrays (a previous PP2 idea), switch statements and CSS animation/keyframes. 
+- Eventyret_mentor for spotting my file path bug and helping me fix it. 
+- JavaScript for kids
 - Love Running project for reference and guidance. 
 - Victor Miclovich (Mentor)
 - <a href="http://w3schools.com"> W3 Schools</a> for tips on media queries, date inputs on forms and centering tables. 
