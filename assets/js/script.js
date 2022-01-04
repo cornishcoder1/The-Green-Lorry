@@ -33,9 +33,9 @@ function generateQuote() {
         theOutput += "<p>Call us for a bespoke quote";
     }
 
-        //Display the output 
-        document.getElementById("displayPrice").innerHTML = theOutput;
-    }     
+    //Display the output 
+    document.getElementById("displayPrice").innerHTML = theOutput;
+}     
     
 
 //Calculates Item Price
