@@ -7,26 +7,25 @@ document.getElementById("generateQuote").addEventListener("click", generateQuote
 function generateQuote() {
     let typeItem = document.getElementById("typeItem").value;
     let collectingFrom = document.getElementById("collectingFrom").value;
-    let bristolDelivery = document.getElementById("bristolDelivery").value;
 
     //Get item price
     let itemPrice = calculatePrice(typeItem);
 
     //Get delivery price (surcharge for longer distances) 
-    let surCharge = calculateSurcharge(itemPrice, collectingFrom);
+    let surCharge = calculateSurcharge(collectingFrom);
 
     //Create output 
     var theOutput = "<p>Thank you for your quote request</p>";
     var itemCharge = "<p>Your item collection charge is: £" + (itemPrice);
 
-    //Output surcharge for collections from Bath
+    //Output surcharge for collections from *update*
     if (surCharge === 0) {
         theOutput += "<p>No distance surcharge</p>";
-        } else {
-            theOutput += "<p>Your distance surcharge is: £" + surCharge;
-        }
+    } else {
+        theOutput += "<p>Your distance surcharge is: £" + surCharge;
+    }
 
-        theOutput += itemCharge + "<p>Your quote total is: £" + (itemPrice + surCharge);
+    theOutput += itemCharge + "<p>Your quote total is: £" + (itemPrice + surCharge);
 
     //Change output if 'other' is selected as type of item 
     if (typeItem === "other") {
@@ -65,14 +64,14 @@ function calculatePrice (typeItem) {
             extraCharge = 0;   
     }   
     
-        itemPrice += extraCharge;
+    itemPrice += extraCharge;
     
-        return itemPrice;
-    }
+    return itemPrice;
+}
 
 
 //Calculates surcharge
-function calculateSurcharge (itemPrice, collectingFrom) {
+function calculateSurcharge (collectingFrom) {
     let surCharge = 0;
         if (collectingFrom === "bristol") {
             surCharge = 0;
