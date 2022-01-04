@@ -1,7 +1,9 @@
 //Listen for clicks on Generate Quote button 
 document.getElementById("generate-quote").addEventListener("click", generateQuote);
 
-//Get form values, calculate quote price and produce form output
+/** 
+*Get form values, calculate quote price, produce form output and add van animation
+*/
 function generateQuote() {
     let typeItem = document.getElementById("type-item").value;
     let collectingFrom = document.getElementById("collecting-from").value;
@@ -9,14 +11,14 @@ function generateQuote() {
     //Get item price
     let itemPrice = calculatePrice(typeItem);
 
-    //Get delivery price (surcharge for longer distances) 
+    //Get distance surcharge for collection from locations other than Bristol 
     let surCharge = calculateSurcharge(collectingFrom);
 
     //Create output 
     var theOutput = "<p>Thank you for your quote request</p>";
     var itemCharge = "<p>Your item collection charge is: £" + (itemPrice);
 
-    //Output surcharge for collections from *update*
+    //Output distance surcharge for collections from Bath, North Somerset and South Gloucestershire
     if (surCharge === 0) {
         theOutput += "<p>No distance surcharge</p>";
     } else {
@@ -45,7 +47,9 @@ function generateQuote() {
 }     
     
 
-//Calculates Item Price
+/** 
+*Calculates Item Price
+*/
 function calculatePrice (typeItem) {
     let itemPrice = 20;
     let extraCharge = 0;
@@ -77,8 +81,9 @@ function calculatePrice (typeItem) {
     return itemPrice;
 }
 
-
-//Calculates surcharge
+/**
+*Calculates distance surcharge
+*/
 function calculateSurcharge (collectingFrom) {
     let surCharge = 0;
         if (collectingFrom === "bristol") {
@@ -95,15 +100,17 @@ function calculateSurcharge (collectingFrom) {
         return surCharge;
 }
 
-  // Display and change color of quote result div when quote is generated
-  document.getElementById("generate-quote").addEventListener("click", changeBackground);
-  let priceColor = document.getElementById("display-price");
+document.getElementById("generate-quote").addEventListener("click", changeBackground);
+let priceColor = document.getElementById("display-price");
 
-  function changeBackground() {
-      priceColor.style.backgroundColor = "rgb(42, 187, 42)";
-      priceColor.style.border = "1px solid transparent;";
-      priceColor.style.borderRadius = "4px";
-      priceColor.style.boxShadow = "0px 1px 4px 2px rgb(42, 187, 42)";
-      priceColor.style.display = "block";
+/** 
+*Display and change color of quote result div when quote is generated
+*/
+function changeBackground() {
+    priceColor.style.backgroundColor = "rgb(42, 187, 42)";
+    priceColor.style.border = "1px solid transparent;";
+    priceColor.style.borderRadius = "4px";
+    priceColor.style.boxShadow = "0px 1px 4px 2px rgb(42, 187, 42)";
+    priceColor.style.display = "block";
 }
 
