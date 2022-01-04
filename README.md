@@ -40,7 +40,7 @@
 
 ## User Stories
 
-The target audience for this project is young professionals in the Bristol area, who are looking for a furniture collection and delivery service. 
+The target audience for this project is primarily young professionals in the Bristol area, who are looking for a furniture collection and delivery service. Value to the user and how the project meets their needs is demonstrated in the user story below:
 
 As a user I am:
 - A young professional living in the Bristol area, who has purchased second hand furniture through an online platform such as Gumtree or Facebook Marketplace.
@@ -235,7 +235,7 @@ Within Chrome and Safari, the following breakpoints were checked:
 - Small screen sizes from 652px and down
 - Extra small screen sizes from 512px and down
 
-Media query required: 
+CSS Media query required for responsiveness: 
 - Extra small screen sizes from 512px and down
 
 The following emulated devices have been tested in Dev Tools: 
