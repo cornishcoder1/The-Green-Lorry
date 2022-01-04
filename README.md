@@ -170,7 +170,7 @@ CSS validator result link:
 ## Fixed
 - I originally used an if/else statement within the calculatePrice function, however the statement would not accept values separated by commas, or with an 'or' operand. My orignal fix for this was to separate out values in the if/else statement, but I then changed this to a switch statement instead. 
 - I had an issue with CSS not being pushed to my deployed page, this was because I had declared absolute file paths in HTML. I changed them to relative filepaths, and this fixed the issue.
-- I originally animated the van in the footer with JavaScript, however when the 'Generate Quote' button was clicked and the van started to 'drive', it didn't stop and gradually increased the size of the horizonal scroll bar as it went. To fix this I created a CSS class with animation and keyframes, and a corresponding function in JS. The keyframe stops the van from continuing further from the right-hand side of the window. 
+- I originally animated the van in the footer with pure JavaScript, however when the 'Generate Quote' button was clicked and the van started to 'drive', it didn't stop and gradually increased the size of the horizonal scroll bar as it went. To fix this I created a CSS class with animation and keyframes, and a corresponding function in JS. The keyframe stops the van from continuing further from the right-hand side of the window. 
 
 ## Unfixed
 
