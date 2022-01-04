@@ -106,40 +106,5 @@ function calculateSurcharge (collectingFrom) {
       priceColor.style.borderRadius = "4px";
       priceColor.style.boxShadow = "0px 1px 4px 2px rgb(42, 187, 42)";
       priceColor.style.display = "block";
-  }
-
-  //Animate van in footer when quote is generated
-
-  var vanSpeed = 50;
-  var vanPosition = 0;
-  var animation;
-
-  var van = document.getElementById("littleVan");
-  document.getElementById("generateQuote").addEventListener("click", vanMove);
-
-function vanMove() {
-    clearInterval(animation);
-    animation = setInterval(frame, vanSpeed);
-
-    function frame() {
-    vanPosition += 2;
-    van.style.left = vanPosition + 'px';
-   
-    }  
 }
-
-// Stops Van when mouse hovers over img element
-
-//var vanImg = document.getElementById ("vanImg");
-//vanImg.addEventListener("mouseover", stopVan);
-
-//function stopVan (event) {
-  //    clearInterval (animation);
-  //
-
-//  setTimeout(function () {
-  //  document.getElementById('littleVan');
-//}, 2000);
-
-  
 
