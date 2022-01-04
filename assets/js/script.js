@@ -1,3 +1,5 @@
+//The code below which allows the quote generator functionality is based on code in the 'JavaScript Pizzeria' walkthrough activity from 'JavaScript for Kids', a book by Chris Minnick and Eva Holland-->
+
 //Listen for clicks on Generate Quote button 
 document.getElementById("generate-quote").addEventListener("click", generateQuote);
 

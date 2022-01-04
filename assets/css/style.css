@@ -96,7 +96,7 @@ p {
     margin-inline: 2em;
 }
 
-
+/*The code below which allows animation of the van image was inspired by the 'Function Junction' walkthrough activity from 'JavaScript for Kids', a book by Chris Minnick and Eva Holland*/
 
 #little-van {
     width: 100%;
