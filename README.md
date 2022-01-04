@@ -155,7 +155,15 @@ CSS validator result link:
 
 ## Javascript
 
-<a href="https://jshint.com">JSHint</a> returned no errors and one warning relating to Let variables ('let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz)). 
+<a href="https://jshint.com">JSHint</a> returned no errors and one warning relating to Let variables.
+
+<div align="center">
+
+![Screenshot of JSHint test result](./assets/screenshots/jshint_result_screenshot.png)
+
+</div>
+
+<br>
 
 # Bugs
 
