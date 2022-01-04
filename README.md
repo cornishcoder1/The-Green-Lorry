@@ -179,7 +179,7 @@ Lighthouse scored the site highly on Performance, Accessibility, Best Practices 
 
 <div align="center">
 
-![Screenshot of Lighthouse test result](./assets/screenshots/screenshot_lighthouse_score.png)
+![Screenshot of Lighthouse test result](./assets/screenshots/lighthouse_result_screenshot.png)
 
 </div>
 
