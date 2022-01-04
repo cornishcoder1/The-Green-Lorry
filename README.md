@@ -1,7 +1,7 @@
 
 # The Green Lorry
 
-<p>This quote generator is designed to give prices for a fictional furniture transport service based in Bristol. It consists of a simple form with select and option elements, and a 'Generate Quote' button. The key goal of this project is to allow users to generate an instant quote for furniture collection and delivery. The quote output depends on what item is being collected/delivered, and where it is being collected from. Javascript functionality changes the output depending on which options are selected by the user in the form. Clicking the 'Generate Quote' button triggers the output, as well as animating the van icon in the footer section.</p>
+<p>This quote generator is designed to give prices for a fictional furniture transport service based in Bristol. It consists of a simple form with select and option elements, and a 'Generate Quote' button. The key goal of this project is to allow users to generate an instant quote for furniture collection and delivery. The quote output depends on what item is being collected/delivered, and where it is being collected from. JavaScript functionality changes the output depending on which options are selected by the user in the form. Clicking the 'Generate Quote' button triggers the output, as well as animating the van icon in the footer section.</p>
 
 <a href="https://cornishcoder1.github.io/The-Green-Lorry/" aria-label="Link to open deployed site">Link to deployed site</a>
 
@@ -138,7 +138,7 @@ This quote generator would work best as an element incorporated into a wider web
 
 - HTML
 - CSS
-- Javascript
+- JavaScript
 - Gitpod
 - GitHub
 
@@ -183,7 +183,7 @@ CSS validator result link:
 
 <a href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fcornishcoder1.github.io%2FThe-Green-Lorry%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en"> style.css </a>
 
-## Javascript
+## JavaScript
 
 <a href="https://jshint.com">JSHint</a> returned no errors and one warning relating to Let variables.
 
