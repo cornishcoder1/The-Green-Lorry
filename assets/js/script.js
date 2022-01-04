@@ -54,13 +54,15 @@ function calculatePrice (typeItem) {
         case "singleBed":
         case "sofa":
         case "diningTable":
+        case "coffeeTable":    
             extraCharge = 10; 
             break;
         case "armChair":
-        case "cupboard":
+        case "cupboard":    
             extraCharge = 5; 
             break; 
-            
+        default: 
+            extraCharge = 0;   
     }   
     
         itemPrice += extraCharge;
