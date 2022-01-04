@@ -253,10 +253,12 @@ I used the following websites for research:
 
 ## Acknowledgements 
 
-- John_McPherson_5P for helping me fix my original if/else statement bug. 
 - Dave_Horrocks_5P for his invaluable hours of assistance in helping me understand arrays (a previous PP2 idea), switch statements and CSS animation/keyframes. 
 - Eventyret_mentor for spotting my file path bug and helping me fix it. 
+- John_McPherson_5P for helping me fix my original if/else statement bug. 
+- Jon_5P for his regular chats and positivity. 
 - Kera Cudmore_5p & Matthias Kiesel_5p for their Peer Review feedback. 
-- The book 'JavaScript for Kids' by Chris Minnick and Eva Holland. This is where the idea for the quote generator came from.
-- Love Maths project for reference and guidance. 
+- Love Maths project for reference and guidance.
 - Sebastian Immel (Mentor)
+- The book 'JavaScript for Kids' by Chris Minnick and Eva Holland. This is where the idea for the quote generator came from.
+ 
