@@ -3,7 +3,7 @@
 
 <p>This quote generator is designed to give prices for a fictional furniture transport service based in Bristol. It consists of a simple form with select and option elements, and a 'Generate Quote' button. The key goal of this project is to allow users to generate an instant quote for furniture collection and delivery. The quote output depends on what item is being collected/delivered, and where it is being collected from. Javascript functionality changes the output depending on which options are selected by the user in the form. Clicking the 'Generate Quote' button triggers the output, as well as animating the van icon in the footer section.</p>
 
-<a href="https://cornishcoder1.github.io/The-Green-Lorry/" target="_blank" rel="noopener" aria-label="Link to open deployed site">Link to deployed site</a>
+<a href="https://cornishcoder1.github.io/The-Green-Lorry/" aria-label="Link to open deployed site">Link to deployed site</a>
 
 <img src="assets/images/am_I_responsive_screenshot.png">
 
@@ -221,7 +221,7 @@ The following emulated devices have been tested in Dev Tools:
 
 Deployment was done at the start of the project to allow device testing throughout the development process. 
 
-My <a href="https://cornishcoder1.github.io/The-Green-Lorry/" target="_blank" rel="noopener" aria-label="Link to open deployed site">project</a> was deployed via GitHub Pages as follows:
+My <a href="https://cornishcoder1.github.io/The-Green-Lorry/" aria-label="Link to open deployed site">project</a> was deployed via GitHub Pages as follows:
 
 1. Go to https://github.com and login
 2. Navigate to the required repository (The-Green-Lorry)
@@ -238,16 +238,18 @@ My <a href="https://cornishcoder1.github.io/The-Green-Lorry/" target="_blank" re
 
 I used the following websites for research: 
 
-- <a href="https://www.bristolactivecity.org.uk/np-area-map/" target="_blank" rel="noopener">Bristol Active City Area Map</a> 
-- <a href="https://shiply.com" target="_blank" rel="noopener">Shiply.com</a>
+- <a href="https://www.bristolactivecity.org.uk/np-area-map/">Bristol Active City Area Map</a> 
+- <a href="https://shiply.com">Shiply.com</a>
 
 <br>
 
 ## Media 
 
-1. Nightstand hero image by <a href="https://www.flaticon.com/authors/freepik" target="_blank" rel="noopener"> Freepik</a> on <a href="https://www.flaticon.com/premium-icon/night-stand_997309?term=furniture&related_id=997360&origin=search"> Flaticon</a> 
+1. Nightstand hero image by <a href="https://www.flaticon.com/authors/freepik">Freepik</a> on <a href="https://www.flaticon.com/premium-icon/night-stand_997309?term=furniture&related_id=997360&origin=search"> Flaticon</a> 
 
 2. Delivery van image by <a href="https://www.flaticon.com/authors/freepik" target="_blank" rel="noopener"> Freepik</a> on <a href="https://www.flaticon.com/premium-icon/delivery-van_3124236"> Flaticon</a>
+
+3. Articulated Lorry Favicon by <a href="https://twitter.com/johnsorrentino">John Sorrentino</a> on <a href="https://favicon.io/emoji-favicons/articulated-lorry/"> Favicon.io</a>
 
 <br>
 
