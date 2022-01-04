@@ -29,7 +29,7 @@ function generateQuote() {
 
     //Change output if 'other' is selected as type of item 
     if (typeItem === "other") {
-        var theOutput = "";
+        theOutput = "";
         theOutput += "<p>Call us for a bespoke quote";
     }
 
