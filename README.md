@@ -9,6 +9,36 @@
 
 ------
 
+# Table of Contents:
+
+1. [User Stories] (## User Stories)
+2. [User Experience(UX)](#user-experience-UX)
+   1. [Target Audience](#target-audience)
+   2. [User Stories](#user-stories)
+   3. [Strategy](#strategy)
+   4. [Scope](#scope)
+   5. [Structure](#structure)
+   6. [Skeleton](#skeleton)
+      1. [Wireframes](#wireframes)
+   7. [Surface](#surface)
+      1. [Colours](#colours)
+      2. [Typography](#typography)
+      3. [Images & Icons](#images-&-icons)
+3. [Features](#features)
+   1. [Current Features](#current-features)
+   2. [Future Features](#future-features)
+4. [Technologies](#technologies)
+5. [Testing](#testing)
+   1. [Tests](#tests)
+   2. [Bugs & Fixes](#bugs-&-fixes)
+6. [Deployment](#deployment)
+   1. [GitHub Pages](#github-pages)
+   2. [Forking Repository](#forking-the-github-repository)
+   3. [Cloning the project](#cloning-the-project)
+7. [Credits](#credits)
+
+------
+
 ## User Stories
 
 The target audience for this project is young professionals in the Bristol area, who are looking for a furniture collection and delivery service. 
