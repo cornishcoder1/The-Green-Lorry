@@ -140,7 +140,7 @@ This quote generator would work best as an element incorporated into a wider web
 
 No errors or warnings were detected.
 
-HTML validator result links:
+HTML validator result link:
 
 <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fcornishcoder1.github.io%2FThe-Green-Lorry%2F"> index.html</a>
 
@@ -175,6 +175,7 @@ CSS validator result link:
 ## Unfixed
 
 - If the 'Generate Quote' button is clicked multiple times without refreshing the DOM, the van in the footer remains in it's final position at the right-hand side of the window. With better knowledge I would have liked to have been able to reset the van to it's original position and re-run the animation each time the 'Generate Quote' button is clicked. 
+- When viewing the page on mobile, the down arrows disappear from the select elements. 
 
 
 ------
@@ -198,12 +199,14 @@ The website has been tested using the following browsers:
 - Mozilla Firefox
 - Safari
 
-Within Chrome and Safari, the following breakpoints were checked and corresponding media queries were used:
+Within Chrome and Safari, the following breakpoints were checked:
 - Large screen sizes from 1200px and down
 - Medium screen sizes from 837px and down 
 - Small screen sizes from 652px and down
 - Extra small screen sizes from 512px and down
 
+Media query required: 
+- Extra small screen sizes from 512px and down
 
 The following emulated devices have been tested in Dev Tools: 
 - iPhone 5/SE
@@ -216,14 +219,16 @@ The following emulated devices have been tested in Dev Tools:
 
 ## Deployment 
 
-My <a href="https://cornishcoder1.github.io/pp2_Bristol_Furniture/" target="_blank" rel="noopener" aria-label="Link to open deployed site">website</a> was deployed via GitHub Pages as follows:
+Deployment was done at the start of the project to allow device testing throughout the development process. 
+
+My <a href="https://cornishcoder1.github.io/The-Green-Lorry/" target="_blank" rel="noopener" aria-label="Link to open deployed site">project</a> was deployed via GitHub Pages as follows:
 
 1. Go to https://github.com and login
-2. Navigate to the required repository (pp2_Bristol_Furniture)
+2. Navigate to the required repository (The-Green-Lorry)
 3. Click on the "Settings" button
-4. Click on "Pages"
+4. Click on "GitHub Pages"
 5. Under "Source", click the dropdown for "Branch" select "master" and then "Save"
-6. A message will then appear stating that the website is published at the deployed address 
+6. A message will then appear stating that the website is published at the deployed address, this may take a few seconds.  
 
 ------
 
