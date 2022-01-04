@@ -1,12 +1,10 @@
-console.log('hello')
-
 //Listen for clicks on Generate Quote button 
-document.getElementById("generateQuote").addEventListener("click", generateQuote);
+document.getElementById("generate-quote").addEventListener("click", generateQuote);
 
 //Get form values, calculate quote price and produce form output
 function generateQuote() {
-    let typeItem = document.getElementById("typeItem").value;
-    let collectingFrom = document.getElementById("collectingFrom").value;
+    let typeItem = document.getElementById("type-item").value;
+    let collectingFrom = document.getElementById("collecting-from").value;
 
     //Get item price
     let itemPrice = calculatePrice(typeItem);
@@ -34,13 +32,13 @@ function generateQuote() {
     }
 
     //Display the output 
-    document.getElementById("displayPrice").innerHTML = theOutput;
+    document.getElementById("display-price").innerHTML = theOutput;
 
     /**
     * Adds a class to the van image to allow animation to occur
     */
     function addAnimation() {
-    document.getElementById("vanImg").classList.add("vanImgMoving");
+    document.getElementById("van-img").classList.add("van-img-moving");
     }
 
     addAnimation();
@@ -58,7 +56,7 @@ function calculatePrice (typeItem) {
         case "sofaLarge":
             extraCharge = 20;
             break;    
-        case "chestofDrawers":
+        case "chestOfDrawers":
         case "singleBed":
         case "sofa":
         case "diningTable":
@@ -66,7 +64,8 @@ function calculatePrice (typeItem) {
             extraCharge = 10; 
             break;
         case "armChair":
-        case "cupboard":    
+        case "cupboard": 
+        case "bedsideTable":   
             extraCharge = 5; 
             break; 
         default: 
@@ -97,8 +96,8 @@ function calculateSurcharge (collectingFrom) {
 }
 
   // Display and change color of quote result div when quote is generated
-  document.getElementById("generateQuote").addEventListener("click", changeBackground);
-  let priceColor = document.getElementById("displayPrice");
+  document.getElementById("generate-quote").addEventListener("click", changeBackground);
+  let priceColor = document.getElementById("display-price");
 
   function changeBackground() {
       priceColor.style.backgroundColor = "rgb(42, 187, 42)";

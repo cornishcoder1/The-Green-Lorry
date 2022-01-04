@@ -35,7 +35,7 @@ h2 {
     padding-bottom: 2.5rem;
 }
 
-#quoteForm {
+#quote-form {
     background-color: #2ABB2A;
     width: 75vw;
     padding: 30px 0 30px 0;
@@ -45,11 +45,11 @@ h2 {
     box-shadow: 0px 1px 4px 2px rgb(42, 187, 42);
 }
 
-#quoteForm > label {
+#quote-form > label {
     margin-inline: 2em;
 }
 
-#quoteForm > button {
+#quote-form > button {
    margin-inline: 2em;
 }
 
@@ -60,7 +60,7 @@ select {
     
 }
 
-.generateButton {
+.generate-button {
     margin-inline: 2em;
     margin-top: 0.5em;
     border-radius: 2px;
@@ -77,12 +77,12 @@ select {
     display: block;
 }
 
-.generateButton:hover {
+.generate-button:hover {
     background-color: #FF0072;
     color:#F6EDD9;
 }
 
-#displayPrice {
+#display-price {
     background-color:  rgb(245, 227, 205);
     width: 75vw;
     padding: 30px 0 30px 0;
@@ -98,13 +98,13 @@ p {
 
 
 
-#littleVan {
+#little-van {
     width: 100%;
 }
     
-.vanImgMoving { 
+.van-img-moving { 
     position: relative;
-    animation: 3s ease-in-out 0s van-right forwards;
+    animation: 10s ease-in-out 0s van-right forwards;
 }
     
 @keyframes van-right {
@@ -123,7 +123,7 @@ footer {
     margin-inline: 2em;
     padding: 30px 0 30px 0;
     text-align: center;
-}
+    }
 
 
 /* Media Queries*/
@@ -131,13 +131,13 @@ footer {
 /* For small screen sizes 512px and down*/
 
 @media (max-width: 512px) {
-    #quoteForm {
+    #quote-form {
             flex-direction: column;
             
     }
 
         
-    #quoteForm > * {
+    #quote-form > * {
             flex-basis: 100%;
     }
 
