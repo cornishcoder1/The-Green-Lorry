@@ -54,7 +54,6 @@ function generateQuote() {
 function calculatePrice (typeItem) {
     let itemPrice = 20;
     let extraCharge = 0;
-
     switch (typeItem) {
         case "wardrobe":
         case "largeBed":
