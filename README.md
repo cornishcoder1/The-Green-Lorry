@@ -13,7 +13,7 @@
 
 1. [User Stories](#user-stories)
 
-2. [User Experience(UX)](#user-experience-UX)
+2. [User Experience(UX)](#ux)
    
    
 
