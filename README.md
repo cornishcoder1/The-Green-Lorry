@@ -238,16 +238,16 @@ My <a href="https://cornishcoder1.github.io/The-Green-Lorry/" target="_blank" re
 
 I used the following websites for research: 
 
-- 
-- 
-- 
+- <a href="https://www.bristolactivecity.org.uk/np-area-map/" target="_blank" rel="noopener">Bristol Active City Area Map</a> 
+- <a href="https://shiply.com" target="_blank" rel="noopener">Shiply.com</a>
 
 <br>
 
 ## Media 
 
-1. Cat hero image by <a href="https://unsplash.com/@lloydhenneman"> Lloyd Henneman</a> on <a href="https://unsplash.com/photos/mBRfYA0dYYE"> Unsplash</a> 
+1. Nightstand hero image by <a href="https://www.flaticon.com/authors/freepik" target="_blank" rel="noopener"> Freepik</a> on <a href="https://www.flaticon.com/premium-icon/night-stand_997309?term=furniture&related_id=997360&origin=search"> Flaticon</a> 
 
+2. Delivery van image by <a href="https://www.flaticon.com/authors/freepik" target="_blank" rel="noopener"> Freepik</a> on <a href="https://www.flaticon.com/premium-icon/delivery-van_3124236"> Flaticon</a>
 
 <br>
 
@@ -256,7 +256,7 @@ I used the following websites for research:
 - John_McPherson_5P for helping me fix my original if/else statement bug. 
 - Dave_Horrocks_5P for his invaluable hours of assistance in helping me understand arrays (a previous PP2 idea), switch statements and CSS animation/keyframes. 
 - Eventyret_mentor for spotting my file path bug and helping me fix it. 
-- JavaScript for kids
-- Love Running project for reference and guidance. 
-- Victor Miclovich (Mentor)
-- <a href="http://w3schools.com"> W3 Schools</a> for tips on media queries, date inputs on forms and centering tables. 
+- Kera Cudmore_5p & Matthias Kiesel_5p for their Peer Review feedback. 
+- The book 'JavaScript for Kids' by Chris Minnick and Eva Holland. This is where the idea for the quote generator came from.
+- Love Maths project for reference and guidance. 
+- Sebastian Immel (Mentor)
