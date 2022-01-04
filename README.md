@@ -1,5 +1,5 @@
 
-# Bristol Green Furniture Transport
+# The Green Lorry
 
 <p>This quote generator is designed to give prices for a fictional furniture transport service based in Bristol. It consists of a simple form with select and option elements, and a 'Generate Quote' button. The key goal of this project is to allow users to generate an instant quote for furniture collection and delivery. The quote output depends on what item is being collected/delivered, and where it is being collected from. Javascript functionality changes the output depending on which options are selected by the user in the form. Clicking the 'Generate Quote' button triggers the output, as well as animating the van icon in the footer section.</p>
 
