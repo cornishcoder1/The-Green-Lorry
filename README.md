@@ -57,13 +57,43 @@ As a user I am:
 
 The heading and introductory text clearly explain what the page is, and what service is being quoted for. 
 
-![Screenshot of heading and introductory text](./assets/screenshots/screenshot_nav_bar.png)
+![Screenshot of heading and introductory text](./assets/screenshots/header_and_introduction.png)
 
-![Screenshot of footer](./assets/screenshots/screenshot_footer.png)
 
 </div>
 
+<div align="center">
 
+**Quote Form**
+
+This section allows the user to select the type of item they require a price for, and what areas the item is to be collected from and delivered to. If 'other' is selected in the 'type of item' selector then the user is advised to contact The Green Lorry for a bespoke quote. If the item is to be collected from an area outside of Bristol, then a distance surcharge is applied to the quote. No additional charges are applied to any of the specified 'Delivering to' locations, as they are all areas of Bristol (price variables are only applied to type of item and location of collection). Users can generate a new quote by changing the options and clicking the 'Generate Quote' button again to refresh the quote output.  
+
+![Screenshot of quote form](./assets/screenshots/quote_form.png)
+
+
+</div>
+
+<div align="center">
+
+**Quote Output Section**
+
+This section returns the generated quote information based on what options the user has selected. It displays a thank you message, distance surcharge (if applicable), item collection charge and quote total. 
+
+![Screenshot of quote output section](./assets/screenshots/quote_output_section.png)
+
+
+</div>
+
+<div align="center">
+
+**Footer**
+
+The footer contains contact information, and an animated lorry which moves across the page when the 'Generate Quote' button is clicked.  
+
+![Screenshot of Footer](./assets/screenshots/footer.png)
+
+
+</div>
 
 ## Features left to implement
 

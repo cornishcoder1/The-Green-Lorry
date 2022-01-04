@@ -121,16 +121,17 @@ function vanMove() {
 }
 
 // Stops Van when mouse hovers over img element
-//var vanImg = document.getElementById ("vanImg");
-//vanImg.addEventListener("mouseover", stopVan);
 
-//function stopVan (event) {
-  //    clearInterval (animation);
-  //}
+var vanImg = document.getElementById ("vanImg");
+vanImg.addEventListener("mouseover", stopVan);
 
-  setTimeout(function () {
-    document.getElementById('littleVan');
-}, 2000);
+function stopVan (event) {
+      clearInterval (animation);
+  }
+
+//  setTimeout(function () {
+  //  document.getElementById('littleVan');
+//}, 2000);
 
   
 
