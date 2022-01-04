@@ -97,7 +97,7 @@ The footer contains contact information, and an animated lorry which moves acros
 
 ## Features left to implement
 
-I would like ...
+This quote generator would work best as an element incorporated into a wider website for the fictional business. The generation of the quote could be the first step in a complete system which would also incorporate booking and payment. For the quote generator itself, there is alot of potential for it to be more intuitive. I would like to be able to add to the list of items available for selection, or perhaps used a 'predictive' element where the user begins typing the item and the field autofills with potential options. I would also like to use a postcode API to make collection and delivery options more accurate, as the area options given at the moment are too broad.  
 
 ------
 
