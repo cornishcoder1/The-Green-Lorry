@@ -96,21 +96,33 @@ p {
     margin-inline: 2em;
 }
 
-#littleVan {
-    position: relative;
-}
 
+
+#littleVan {
+    width: 100%;
+}
+    
+.vanImgMoving { 
+    position: relative;
+    animation: 3s ease-in-out 0s van-right forwards;
+}
+    
+@keyframes van-right {
+    from {
+        left: 0;
+    }
+    to {
+        left: calc(50vw - 64px);
+    }
+}
+    
 footer {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     margin-inline: 2em;
     padding: 30px 0 30px 0;
     text-align: center;
-}
-
-.footer {
-    margin-left: auto;
-    margin-right: auto;
 }
 
 
