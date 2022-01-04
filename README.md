@@ -1,11 +1,11 @@
 
 # Bristol Green Furniture Transport
 
-<p>This quote generator is designed to give prices for a fictional furniture transport service based in Bristol. It consists of a simple form with select and option elements, allowing users to generate an instant quote for furniture collection and delivery. The quote output depends on what item is being collected/delivered, and where it is being collecting from. Javascript functionality changes the output depending on which conditions are selected by the user in the form. Clicking the 'Generate Quote' button triggers the output, as well as animating the van icon in the footer section.</p>
+<p>This quote generator is designed to give prices for a fictional furniture transport service based in Bristol. It consists of a simple form with select and option elements, allowing users to generate an instant quote for furniture collection and delivery. The quote output depends on what item is being collected/delivered, and where it is being collected from. Javascript functionality changes the output depending on which options are selected by the user in the form. Clicking the 'Generate Quote' button triggers the output, as well as animating the van icon in the footer section.</p>
 
-<a href="https://cornishcoder1.github.io/pp2_Bristol_Furniture/" target="_blank" rel="noopener" aria-label="Link to open deployed site">Link to deployed site</a>
+<a href="https://cornishcoder1.github.io/The-Green-Lorry/" target="_blank" rel="noopener" aria-label="Link to open deployed site">Link to deployed site</a>
 
-<img src="assets/images/am-i-responsive.png">
+<img src="assets/images/am_I_responsive.png">
 
 ------
 
