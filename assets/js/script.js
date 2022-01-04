@@ -88,16 +88,16 @@ function calculateSurcharge (collectingFrom) {
     let surCharge = 0;
         if (collectingFrom === "bristol") {
             surCharge = 0;
-            } else if (collectingFrom === "bath") {
+        } else if (collectingFrom === "bath") {
             surCharge = 7;
         } else if (collectingFrom === "southGlos") {
             surCharge = 5;
         } else if (collectingFrom === "northSomerset") {
             surCharge = 5;
-            } else {
-        }
+        } else {
+    }
     
-        return surCharge;
+    return surCharge;
 }
 
 document.getElementById("generate-quote").addEventListener("click", changeBackground);
